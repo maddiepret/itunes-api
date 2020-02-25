@@ -1,0 +1,155 @@
+/* *************HOME PAGE************ */
+
+.home-container {
+    background: #262626;
+    color: floralwhite;
+}
+
+.home-header h1 {
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.magical {
+    color: #db5e95;
+    font-size: 3.4em;
+}
+
+.apple-air-pods-img {
+    width: 400px;
+}
+
+.musicApps {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: 90%
+}
+
+.musicApps li {
+    list-style: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+.musicApps li img {
+    height: 100px;
+}
+
+
+/* *************MOVIE PAGE************ */
+
+img.movie-img {
+    width: 100%;
+    padding: 20px;
+}
+
+.heading,
+.fav-list {
+    font-family: fantCourier New, monospaceasy;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.searchBox {
+    padding: 4rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 20px;
+    background: #262626;
+}
+
+.searchBox input {
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid #1d1d1d;
+    background: #1f1f1f;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.searchOptions {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+
+.image {
+    height: 180px;
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+}
+
+.trackName,
+.artistName,
+.primaryGenreName {
+    color: whitesmoke;
+}
+
+.l-row--peek {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: auto;
+    min-width: 100%;
+    white-space: nowrap;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+Button.button-snippet {
+    padding: 10px;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background-color: skyblue;
+}
+
+Button.button-like {
+    padding: 10px;
+    margin: auto;
+    margin-top: 20%;
+    background-color: palevioletred;
+}
+
+.button-snippet:hover {
+    background-color: azure;
+    color: forestgreen;
+}
+
+div.results-container {
+    height: auto;
+}
+
+.favorite {
+    padding: 10px;
+    color: lavenderblush;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+img.like {
+    height: 10%;
+}
